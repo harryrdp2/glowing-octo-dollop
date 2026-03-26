@@ -1,0 +1,41 @@
+# DubSync Colab Edition - Requirements
+# No API keys needed - All local models!
+
+# Core dependencies
+altair
+pandas
+streamlit>=1.28.0
+moviepy==2.1.2
+pydub==0.25.1
+torch>=2.0.0
+yt_dlp>=2025.0.0
+cmake>=3.31.0
+sentencepiece>=0.2.0
+
+# Whisper for transcription (local)
+openai-whisper @ git+https://github.com/openai/whisper.git@517a43ecd132a2089d85f4ebc044728a71d49f6e
+
+# Audio processing
+librosa>=0.10.0
+noisereduce>=2.0.0
+scipy>=1.10.0
+numpy>=1.24.0
+ffmpeg-python>=0.2.1
+ffmpy>=0.3.10
+
+# Audio separation
+demucs>=4.0.0
+
+# Voice cloning
+f5-tts>=0.1.0
+
+# Translation - Local models (NO API!)
+transformers>=4.36.0
+sentencepiece>=0.2.0
+protobuf>=3.20.0
+
+# Speaker diarization (optional)
+pyannote.audio>=3.1.0
+
+# Utilities
+requests>=2.31.0

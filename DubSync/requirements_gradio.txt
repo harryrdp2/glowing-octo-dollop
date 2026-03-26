@@ -1,0 +1,38 @@
+# DubSync Gradio Edition - Requirements
+# Optimized for Google Colab with Gradio UI
+
+# Core dependencies
+gradio>=4.0.0
+torch>=2.0.0
+torchaudio>=2.0.0
+transformers>=4.36.0
+
+# Audio & Video Processing
+librosa>=0.10.0
+pydub==0.25.1
+moviepy==2.1.2
+scipy>=1.10.0
+numpy>=1.24.0
+
+# Whisper for transcription
+openai-whisper @ git+https://github.com/openai/whisper.git@517a43ecd132a2089d85f4ebc044728a71d49f6e
+
+# Audio & Video Tools
+ffmpeg-python>=0.2.1
+ffmpy>=0.3.10
+
+# Audio Separation & Cloning
+demucs>=4.0.0
+f5-tts>=0.1.0
+
+# Utilities
+yt-dlp>=2025.0.0
+requests>=2.31.0
+pandas>=2.0.0
+sentencepiece>=0.2.0
+protobuf>=3.20.0
+noisereduce>=2.0.0
+
+# Optional but recommended
+#accelerate>=0.24.0
+#xformers>=0.0.20

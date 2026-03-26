@@ -1,0 +1,75 @@
+## 🎬 DubSync Advanced Anime Dubbing - Requirements
+## For Google Colab
+
+# Core Audio Processing
+librosa>=0.10.0
+pydub>=0.25.1
+scipy>=1.10.0
+numpy>=1.24.0
+
+# Video Processing
+moviepy>=1.0.3
+opencv-python>=4.8.0
+imageio>=2.25.0
+
+# Audio Separation (Demucs)
+demucs>=4.0.0
+julius>=0.2.7
+
+# Machine Learning & Models
+torch>=2.0.0
+torchaudio>=2.0.0
+transformers>=4.36.0
+torchvision>=0.15.0
+
+# Speech Recognition
+openai-whisper>=20230314
+librosa>=0.10.0
+
+# Voice Cloning (F5-TTS)
+# Install separately: pip install git+https://github.com/f5-tts/F5-TTS.git
+# pydantic>=2.0
+# soundfile>=0.12.0
+# inflect>=7.0.0
+
+# Translation
+Helsinki-NLP-Opus-MT-models  # Or use: pip install opus-mt-models
+
+# UI Framework
+gradio>=4.0.0
+gradio-pdf>=0.0.2
+
+# Download & Utility
+yt-dlp>=2023.12.0
+requests>=2.31.0
+tqdm>=4.66.0
+
+# Audio Enhancement
+noisereduce>=3.0.0
+librosa>=0.10.0
+
+# Data Processing
+pandas>=2.0.0
+matplotlib>=3.7.0
+plotly>=5.17.0
+
+# CUDA Support (for GPU)
+# If using Colab with GPU:
+# torch and torchvision install CUDA automatically
+
+# Optional: For CPU-only (slower)
+# Comment out torch, torchvision, torchaudio above
+# Install CPU versions instead
+
+# JSON & Config
+pyyaml>=6.0
+python-dotenv>=1.0.0
+
+# Utilities
+colorama>=0.4.6
+python-dateutil>=2.8.2
+
+## Installation for Google Colab:
+# pip install -q -r requirements_advanced_anime_dub.txt
+# pip install -q git+https://github.com/f5-tts/F5-TTS.git
+# apt-get install -y ffmpeg
